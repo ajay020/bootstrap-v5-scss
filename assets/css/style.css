@@ -9824,6 +9824,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 .companies {
   padding: 0 0 5rem 0;
 }
@@ -9840,6 +9844,43 @@ textarea.form-control-lg {
 }
 .companies__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  list-style: none;
+  position: relative;
+  display: block;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "font awesome 5 free";
+  content: "\f00c";
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
 }
 
 .menu {
